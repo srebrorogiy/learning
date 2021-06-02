@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    /* background: linear-gradient(to bottom right, #faf895, #ffef13) fixed; */
+    background: #fffc3e;
+    perspective: 1px;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto; 
+    /*позиционирование по тексту */
+}
+
+/* .header { */
+/* } */
+
+.header {
+ padding-top: 20px;
+}
+
+img {
+    width: 45px;
+    height: 45pxss;
+}
+
+.logo {
+    margin-right: 200px;
+}
+
+ul, li {
+    display: block;
+}
+
+header a {
+    color: black;
+}
+
+.menu {
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.menu li {
+    padding-right: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ff7029;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-top: 59;
+}
+
+.offer {
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 120px;
+    float: left;
+    width: 600px;
+    height: 340px;
+}
+.offer h1{
+    font-size: 48px;
+    color: rgb(193, 85, 255);
+    padding-bottom: 5px;
+}
+.offer p {
+    color: rgb(205, 119, 255);
+    padding-bottom: 20px;
+}
+
+.offer {
+    font-size: 20px;
+}
+
+.flowers {
+    width: 524px;
+    height: 788px;
+    float: right;
+}
+
+.btn {
+    color: snow;
+    font-size: 16px;
+    background: linear-gradient(to left, #76b852, #45B649, #76b852);
+    text-decoration: none;
+    width: 190px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    border-radius: 30px;
+    background-size: 200%;
+    transition: .5s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 15px #76b852;
+    background-position: right;
+}
+
