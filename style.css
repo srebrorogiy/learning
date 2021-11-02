@@ -2,9 +2,10 @@ body {
     margin: 0;
     padding: 0;
     color: black;
-    font-family: 'Montserrat', sans-serif;
-    /* background: linear-gradient(to bottom right, #faf895, #ffef13) fixed; */
-    background: #fffc3e;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to bottom right, #f5c0d6, #857f82) fixed;
+    /* background: #f5b4cf; */
     perspective: 1px;
     overflow: hidden;
     overflow: scroll;
@@ -58,10 +59,20 @@ header a {
 }
 
 .nav {
-    display: flex;
-    align-items: center;
-    margin-top: 59;
+    /* margin: 100px 0;
+    background-color:rgb(233, 133, 172); */
 }
+
+/* .nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+.nav ul li {
+    margin: 0p
+} */
 
 .offer {
     text-transform: uppercase;
@@ -73,11 +84,11 @@ header a {
 }
 .offer h1{
     font-size: 48px;
-    color: rgb(193, 85, 255);
+    color: rgb(255, 255, 255);
     padding-bottom: 5px;
 }
 .offer p {
-    color: rgb(205, 119, 255);
+    color: rgb(253, 253, 253);
     padding-bottom: 20px;
 }
 

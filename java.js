@@ -5,3 +5,4 @@ let admin;
 admin = name;
 
 console.log(alert(admin))
+
