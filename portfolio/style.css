@@ -1,7 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
 
+}
+
+.content {
+    height: 5000px;
 }
 
 .container {
@@ -11,21 +21,27 @@ body {
 }
 
 .header {
-    padding-top: 20px;
-    /* Rectangle 2 */
-
-    position: absolute;
-    width: 1920px;
+    position: fixed;
+    width: 100%;  
     height: 84px;
     left: 0px;
-    top: 1px;
-
+    top: 0px;
     background: #fff9f9;
     mix-blend-mode: screen;
     opacity: 0.8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
+
+.logo {
+    
+    float: left;
+    margin-left: 320px;
+    margin-top: 25px;
+    font-size: 24px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .rightline {
     position:absolute;
     width: 345.08px;
@@ -50,18 +66,11 @@ body {
     left: 945.46px;
     top: 819px;
 
-    background: linear-gradient(248.39deg, #FFECEF 6.74%, rgba(255, 236, 239, 0.08) 89.61%);
+    background: linear-gradient(248.39deg, hsl(353, 100%, 92%) 6.74%, rgba(255, 236, 239, 0.08) 89.61%);
     filter: blur(41px);
     transform: rotate(2.37deg);
 }
-.logo {
-    
-    float: left;
-    margin-left: 320px;
-    margin-top: 15px;
-    font-size: 24px;
-    font-family: 'Noto Sans', sans-serif;
-}
+
 
 ul, li {
     display: block;
@@ -72,6 +81,7 @@ header a {
 }
 
 .menu {
+    margin-top: 30px;
     text-align: center;
     float: right;
     display: flex;
@@ -103,7 +113,7 @@ header a {
 }
 
 .offer h1{
-    margin-right: 1145px;
+    /* margin-right: 1145px; */
     text-transform: uppercase;
     font-family: 'Abril Fatface', cursive;
     font-size: 64px;
@@ -125,7 +135,6 @@ header a {
 #third {
     font-family: 'Dancing Script', cursive;
     margin-top: 0;
-}
 }
 
 .flowers {
@@ -163,7 +172,7 @@ header a {
     left: 80px;
     top: 101.6px;
 
-    background: linear-gradient(141.62deg, #FFACAC 19.98%, rgba(255, 217, 217, 0) 85.16%);
+    background: linear-gradient(141.62deg, hsl(350, 100%, 84%) 19.98%, rgba(255, 217, 217, 0) 85.16%);
     filter: blur(72px);
     transform: rotate(-26.97deg);
 
