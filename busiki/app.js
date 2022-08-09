@@ -143,13 +143,22 @@ let menu = {
   title: "My menu"
 };
 
-multiplyNumeric(obj) {
-  let key = typeof Number;
-  key *= 2;  
+//multiplyNumeric(obj) {
+//  let key = typeof Number;
+//  key *= 2;  
+//};
+
+function multiplyNumeric(obj) {
+  for (let key in obj) {
+    if (typeof obj[key] == 'number') {
+    obj[key] *= 2;
+    }
+  }
 };
 
-multiplyNumeric(menu)
+multiplyNumeric(menu);
 
+console.log(menu);
 
 // после вызова функции
 menu = {
@@ -157,3 +166,10 @@ menu = {
   height: 600,
   title: "My menu"
 };
+
+// проверка на пустоту
+
+const isEmpty = (obj) => !!Object.keys(obj).length;
+
+// сумма зарплат.
+const sum = (obj) => Object.values(obj).reduce((acc, value) => (acc += value));
